@@ -14,7 +14,7 @@ class MainActivity : Activity() {
         super.onCreate(savedInstanceState)
 
         mTextView = TextView(findViewById(R.id.mainTextView))
-        mTextView.setText(  "Hello World")
+        mTextView.text = "Hello World"
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
